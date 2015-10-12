@@ -395,7 +395,11 @@ Media Query ====================================================================
 
     .p2{
         display:block;
-        background-color:#999;
+        
+    }
+    
+    body{
+        background-color: #5e9ca0;   
     }
     
 }
@@ -406,6 +410,14 @@ Media Query ====================================================================
         display:block;   
     }
     
+    body{
+        background-color: #342800;   
+    }
+    
+     p{
+        color: #ffffff;   
+    }
+    
 }
 
 @media (max-width:450px) {
@@ -414,6 +426,13 @@ Media Query ====================================================================
         display:block;   
     }
     
+    body{
+        background-color: darkgrey;
+        
+    }
+    
+   
+    
 }
 
 
@@ -421,6 +440,10 @@ Media Query ====================================================================
 
     .p5{
         display:block;   
+    }
+    
+    body{
+        background-color: teal;   
     }
     
 }
